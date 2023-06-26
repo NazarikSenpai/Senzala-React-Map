@@ -1,7 +1,7 @@
 import React from "react";
-import L from 'leaflet';
+import L from "leaflet";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
-import './Map.css';
+import "./Map.css";
 
 // указываем путь к файлам marker
 L.Icon.Default.imagePath = "https://unpkg.com/leaflet@1.5.0/dist/images/";
@@ -10,7 +10,7 @@ class MapComponent extends React.Component {
   state = {
     lat: 55.702868,
     lng: 37.530865,
-    zoom: 10
+    zoom: 10,
   };
 
   render() {
@@ -29,6 +29,6 @@ class MapComponent extends React.Component {
       </Map>
     );
   }
-};
+}
 
 export default MapComponent;

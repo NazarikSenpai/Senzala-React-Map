@@ -1,12 +1,12 @@
 import React from "react";
 import { Map, TileLayer } from "react-leaflet";
-import './Map.css';
+import "./Map.css";
 
 class MapComponent extends React.Component {
   state = {
     lat: 55.702868,
     lng: 37.530865,
-    zoom: 10
+    zoom: 10,
   };
 
   render() {

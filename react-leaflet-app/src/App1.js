@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 import MapComponent from "./Map2";
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <MapComponent />
-  );
+  return <MapComponent />;
 }
 
 export default App;
